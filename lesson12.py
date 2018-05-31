@@ -1,4 +1,4 @@
--@@ -1,70 +0,0 @@
+
 -# Credit goes to Websten from forums
 -#
 -# Use Dave's suggestions to finish your daysBetweenDates
@@ -65,7 +65,9 @@
 -        else:
 -            print "Test case passed!"
 -
--test()
--
+-#test()
+-# testing whether calendar funtion works:
+print daysInMonth(2000,2)
+
 -
 -# what happens now when I change this file?
