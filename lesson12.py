@@ -3,6 +3,7 @@
 # Use Dave's suggestions to finish your daysBetweenDates
 # procedure. It will need to take into account leap years
 # in addition to the correct number of days in each month.
+# This project is now finished. It should allways give the correct date
 
 
 import calendar
@@ -50,7 +51,8 @@ def daysBetweenDates(year1, month1, day1, year2, month2, day2):
         days += 1
     return days
 
-def test():
+# remove the triple quotes to def the test cases.
+"""def test():
     test_cases = [((2012,1,1,2012,2,28), 58),
                   ((2012,1,1,2012,3,1), 60),
                   ((2011,6,30,2012,6,30), 366),
@@ -63,10 +65,13 @@ def test():
             print "Test with data:", args, "failed"
         else:
             print "Test case passed!"
-
-test()
+"""
+# remove the # from the next line to test the test cases
+#test()
 # testing whether calendar funtion works:
 #print daysInMonth(2007,2)
+# Now I want this to be able to run as a simple .py program with user input:
 
+print "Enter the first date"
 
-# what happens now when I change this file?
+inpute
